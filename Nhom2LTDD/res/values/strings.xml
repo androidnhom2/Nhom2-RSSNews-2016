@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tổng hợp tin tức RSS</string>
+    <string name="title_activity_detail">Nội dung chi tiết</string>
+    <string name="sport">THỂ THAO</string>
+    <string name="home">TIN HOT</string>
+    <string name="Education">GIÁO DỤC</string>
+    <string name="Business">KINH DOANH</string>
+    <string name="Travel">DU LỊCH</string>
+    <string name="Word">THẾ GIỚI</string>
+    <string name="Entertainment">GIẢI TRÍ</string>
+    <string name="Heal">SỨC KHỎE</string>
+    <string name="law">PHÁP LUẬT</string>
+    <string name="history">LỊCH SỬ</string>
+    <string name="title">Title</string>
+    <string name="date">date</string>
+    <string name="color">#ffffff</string>
+    <string name="back">BACK</string>
+    <string name="back_home">TRANG CHỦ</string>
+    <string name="view_content">Xem bản tin gốc</string>
+
+    <string-array name="titles">
+        <item>Trang chủ</item>
+        <item>Thể thao</item>
+        <item>Giáo dục</item>
+        <item>Kinh doanh</item>
+        <item>Du lịch</item>
+        <item>Thế giới</item>
+        <item>Giải trí</item>
+        <item>Sức khỏe</item>
+        <item>Pháp luật</item>
+        <item>Lịch sử</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_ball</item>
+        <item>@drawable/ic_education</item>
+        <item>@drawable/ic_business</item>
+        <item>@drawable/ic_travel</item>
+        <item>@drawable/ic_world</item>
+        <item>@drawable/ic_play</item>
+        <item>@drawable/ic_heart</item>
+        <item>@drawable/ic_law</item>
+        <item>@drawable/ic_history</item>
+    </array>    
+
+</resources>

@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/vn/edu/tdc/database/DatabaseHelper.java=UTF-8
+encoding//src/vn/edu/tdc/database/NewsAccess.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/BusinessContent.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/EducationContent.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/EntertainmentContent.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/HealContent.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/HistoryContent.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/HomeContent.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/LawContent.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/SportContent.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/TravelContent.java=UTF-8
+encoding//src/vn/edu/tdc/fragment/WorldContent.java=UTF-8
+encoding//src/vn/edu/tdc/rssnews/DetailActivity.java=UTF-8
+encoding//src/vn/edu/tdc/rssnews/MainActivity.java=UTF-8
