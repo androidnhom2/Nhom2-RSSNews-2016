@@ -1,7 +1,6 @@
 package vn.edu.tdc.adapter;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import com.squareup.picasso.Picasso;
 
