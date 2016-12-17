@@ -133,8 +133,7 @@ public class EntertainmentContent extends Fragment {
 				arrNews.add(new News(title, photo, date, link, description));
 			}
 
-			adapter = new NewsAdapter(getActivity(),
-					android.R.layout.simple_list_item_1, arrNews);
+			adapter = new NewsAdapter(getActivity(),arrNews);
 
 			lventertainment.setAdapter(adapter);
 			super.onPostExecute(result);

@@ -133,8 +133,7 @@ public class LawContent extends Fragment {
 				arrNews.add(new News(title, photo, date, link, description));
 			}
 
-			adapter = new NewsAdapter(getActivity(),
-					android.R.layout.simple_list_item_1, arrNews);
+			adapter = new NewsAdapter(getActivity(),arrNews);
 
 			lvlaw.setAdapter(adapter);
 			super.onPostExecute(result);
