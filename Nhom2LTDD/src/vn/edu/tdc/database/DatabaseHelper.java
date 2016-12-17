@@ -1,14 +1,8 @@
 package vn.edu.tdc.database;
 
-import java.util.ArrayList;
-
-import vn.edu.tdc.datamodels.News;
-import android.content.ContentValues;
 import android.content.Context;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.widget.Toast;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 	static int DB_VERSION = 1;
