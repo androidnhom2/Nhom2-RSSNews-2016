@@ -1,7 +1,6 @@
 package vn.edu.tdc.rssnews;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import vn.edu.tdc.adapter.SlideMenuAdapter;
 import vn.edu.tdc.datamodels.ItemSlideMenu;
@@ -42,7 +41,7 @@ public class MainActivity extends Activity {
 	private ListView lvDrawerMenu;
 	private ActionBarDrawerToggle actionBarDrawerToggle;
 
-	private List<ItemSlideMenu> itemSlide;
+	private ArrayList<ItemSlideMenu> itemSlide;
 	private SlideMenuAdapter menuadapter;
 
 	@SuppressLint("NewApi")
@@ -68,7 +67,7 @@ public class MainActivity extends Activity {
 
 		menuIcons.recycle();
 
-		menuadapter = new SlideMenuAdapter(getApplicationContext(), itemSlide);
+		menuadapter = new SlideMenuAdapter(MainActivity.this, itemSlide);
 
 		lvDrawerMenu.setAdapter(menuadapter);
 		lvDrawerMenu.setOnItemClickListener(new SlideitemListener());
@@ -196,7 +195,7 @@ public class MainActivity extends Activity {
 	@Override
 	public boolean onPrepareOptionsMenu(Menu menu) {
 		// if nav drawer is opened, hide the action items
-		boolean drawerOpen = drawerLayout.isDrawerOpen(lvDrawerMenu);
+		drawerLayout.isDrawerOpen(lvDrawerMenu);
 		return super.onPrepareOptionsMenu(menu);
 	}
 

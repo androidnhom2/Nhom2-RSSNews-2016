@@ -1,12 +1,10 @@
 package vn.edu.tdc.rssnews;
 
-import java.util.ArrayList;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-import vn.edu.tdc.database.DatabaseHelper;
 import vn.edu.tdc.database.NewsAccess;
 import vn.edu.tdc.datamodels.News;
 import vn.edu.tdc.nhom2ltdd.R;
